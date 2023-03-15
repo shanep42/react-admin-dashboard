@@ -19,7 +19,6 @@ body,
   width: 10px;
 }
 
-/* track */
 ::-webkit-scrollbar-track {
   background: #e0e0e0
 }
