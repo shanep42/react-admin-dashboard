@@ -122,12 +122,12 @@ export const tokens = (mode) => ({
 
 //mui theme settings
 export const themeSettings = (mode) => {
-    const colors = token(mode)
+    const colors = tokens(mode);
 
     return {
         palette: {
             mode: mode,
-            ...colors(mode === 'dark'
+            ...(mode === 'dark'
                 ? {
                     primary: {
                         main: colors.primary[500],
