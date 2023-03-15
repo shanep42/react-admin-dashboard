@@ -19,7 +19,6 @@ function Topbar() {
       {/* Search Bar */}
       <Box
         display='flex'
-        // TODO: This color is not displaying like it should. Compare to theme.js for what hex it should be using.
         backgroundColor={colors.primary[400]}
         borderRadius='3px'
       >
