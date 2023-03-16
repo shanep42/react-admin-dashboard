@@ -107,7 +107,7 @@ function Sidebar() {
               to='/'
               icon={<HomeOutlinedIcon />}
               selected={selected}
-              getSelected={setSelected}
+              setSelected={setSelected}
             />
             <Typography
               variant='h6'
@@ -121,21 +121,21 @@ function Sidebar() {
               to='/team'
               icon={<PeopleOutlinedIcon />}
               selected={selected}
-              getSelected={setSelected}
+              setSelected={setSelected}
             />
             <Item
               title='Contacts Information'
               to='/contacts'
               icon={<ContactsOutlinedIcon />}
               selected={selected}
-              getSelected={setSelected}
+              setSelected={setSelected}
             />
             <Item
               title='Invoice Balances'
               to='/invoices'
               icon={<ReceiptOutlinedIcon />}
               selected={selected}
-              getSelected={setSelected}
+              setSelected={setSelected}
             />
             <Typography
               variant='h6'
@@ -149,21 +149,21 @@ function Sidebar() {
               to='/form'
               icon={<PersonOutlinedIcon />}
               selected={selected}
-              getSelected={setSelected}
+              setSelected={setSelected}
             />
             <Item
               title='Calendar'
               to='/calendar'
               icon={<CalendarTodayOutlinedIcon />}
               selected={selected}
-              getSelected={setSelected}
+              setSelected={setSelected}
             />
             <Item
               title='FAQ Page'
               to='/faq'
               icon={<HelpOutlinedIcon />}
               selected={selected}
-              getSelected={setSelected}
+              setSelected={setSelected}
             />
             <Typography
               variant='h6'
@@ -177,28 +177,28 @@ function Sidebar() {
               to='/bar'
               icon={<BarChartOutlinedIcon />}
               selected={selected}
-              getSelected={setSelected}
+              setSelected={setSelected}
             />
             <Item
               title='Pie Chart'
               to='/pie'
               icon={<PieChartOutlinedIcon />}
               selected={selected}
-              getSelected={setSelected}
+              setSelected={setSelected}
             />
             <Item
               title='Line Chart'
               to='/line'
               icon={<TimelineOutlinedIcon />}
               selected={selected}
-              getSelected={setSelected}
+              setSelected={setSelected}
             />
             <Item
               title='Geography'
               to='/geography'
               icon={<MapOutlinedIcon />}
               selected={selected}
-              getSelected={setSelected}
+              setSelected={setSelected}
             />
           </Box>
         </Menu>
